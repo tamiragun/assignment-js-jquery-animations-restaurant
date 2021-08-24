@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+<head>
+    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <link href="CSS/restaurant.css" rel="stylesheet" type="text/css">
+</head>
+
+<header>
+    <h1>Wrap Palace</h1>
+    <div id="menu"> 
+        <ul> 
+            <li><a href="#our-story">Our story</a></li> 
+            <li><a href="#our-food">Our food</a> 
+                <ul class="dropdown-menu"> 
+                    <li><a href="#">Breakfast</a></li> 
+                    <li><a href="#">Lunch</a></li> 
+                    <li><a href="#">Dinner</a></li> 
+                    <li><a href="#">Desserts</a></li> 
+                    <li><a href="#">Drinks</a></li> 
+                </ul> 
+            </li> 
+            <li><a href="#our-people">Our people</a></li> 
+        </ul> 
+    </div>
+    
+</header>
+<body>
+    <section id="our-story">
+        <h2>Our Story</h2>
+        <div> 
+            <div id="our-story-txt">
+                <p>
+                    We both had demanding full-time jobs, with little time left to cook in the evenings. 
+                    On weekends, though, we'd sleep in and take our time to craft delicious breakfasts.
+                    Our favourite was the breakfast wrap, because it is so versatile and delicious.
+                    We noticed that it wasn't a common menu option at breakfast and brunch restaurants in our city.
+                    So we decided to quit our jobs and start a restaurent to bring breakfast wraps to everyone!
+                </p>
+            </div>
+            <img id="our-story-img" src="https://cdn.pixabay.com/photo/2016/02/19/11/40/coffee-shop-1209863_960_720.jpg" alt="Image by Pixabay" width='500px'>
+        </div>   
+    </section>
+    <section id="our-food">
+        <h2>Our food</h2>
+            <div>
+                <div id="our-food-txt">     
+                    <p>
+                        We serve breakfast wraps of all varieties - a wrap for each purse! 
+                        All wraps come with eggs and cheese, and can be ordered in a small or large size.
+                        You can go with The Mexican, which has mince and fresh coriander.
+                        Then there's The Spaniard, with baked beans and chorizo. 
+                        The Old Brit has bacon or sausage, and The Frenchman gets you blue cheese.
+                        The Norseman rolls in some salmon, and Veggie Nation prefers in with baby spinach.
+                        Take your pick of these, and many more.
+                    </p>
+                </div>  
+                <img id="our-food-img" src="https://images.unsplash.com/photo-1566740933430-b5e70b06d2d5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Photo by Creative Headline" width=500px>
+            </div>    
+        </section>
+    <section id="our-people">
+        <h2>Our People</h2>
+            <div>
+                <div id="our-people-txt">
+                    <p>
+                        We work with a wonderful team. Sally makes the magic happen in the kitchen. 
+                        Anisha oversees logistics, finances and deliveries. Tammy delights customers in the front of house, 
+                        and Chris tag-teams with Sally in the kitchen.
+                    </p>
+                </div>
+                <img id="our-people-img" src="images/our-people.jpg" alt="Photo by Gemma Chua-tran" width='500px'>
+            </div>
+        </section>
+            <input type="button" value="Slide stuff" id="slide-button" class="button">
+            <input type="button" value="Fade image out" id="fade-out-button" class="button"> 
+            <input type="button" value="Pause fade" id="fade-pause-button" class="button">
+            <input type="button" value="Fade image in" id="fade-in-button" class="button">
+
+<script type="text/javascript" src="restaurant.js"></script>
+</body>
+
+</html>

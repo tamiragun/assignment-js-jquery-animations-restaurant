@@ -1,0 +1,51 @@
+/* Creating a drop-down menu accordeon style
+
+https://www.learningjquery.com/2015/10/using-jquery-to-create-a-drop-down-menu */
+#menu a { 
+    text-decoration: none; 
+    color: #333; 
+    padding-right: 5px; } 
+   
+/* Making the lis items appear next to each other instead of underneath each other*/
+#menu ul li { 
+    display: inline; 
+} 
+
+/* this is not visible for now, but when the item slides down with jQuery, it will be*/
+.dropdown-menu { 
+    display: none; 
+}
+
+/*Some general styleing*/
+
+* {
+    font-family: Optima, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+/*trying to align the text and the image next to each other */
+#our-story-img, #our-story-txt, #our-food-txt, #our-food-img, #our-people-txt, #our-people-img {               /*Got this from: https://stackoverflow.com/a/37377793/12786165 */
+    max-width: 100%;
+    vertical-align: top;
+    display: inline-block;
+    padding-right: 50px;
+}
+
+
+section {
+    margin: 20px;
+    padding: 20px;
+}
+
+#slide-button {
+    margin-left: 40px;
+}
+
+.button {
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
